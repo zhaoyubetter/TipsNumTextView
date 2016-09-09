@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TipsNumberView">
+        <!-- 填充类型 -->
+        <attr name="tips_type">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+        </attr>
+        <!-- 颜色 -->
+        <attr name="tips_color" format="reference|color" />
+        <!-- 描边颜色 -->
+        <attr name="tips_color_stroke" format="reference|color" />
+        <!-- 描边大小 -->
+        <attr name="tips_stroke_size" format="dimension" />
+
+        <attr name="tips_text_size" format="dimension" />
+        <attr name="tips_text_color" format="reference|color" />
+        <attr name="tips_text" format="string" />
+    </declare-styleable>
+</resources>
